@@ -29,10 +29,10 @@ public class Main {
         System.out.println("Pes " + hozna.getName() + " váží: " + hozna.getWeight() + " a narodil se: " + hozna.getBirthday() + ". Má obojek? " + hozna.collar);
         System.out.println();
         System.out.println("Jak dělá Anička, Anička dělá: " + anicka.getYell());
-        System.out.println("Kachna " + anicka.getName() + " váží: " + anicka.getWeight() + " a narodila se: " + anicka.getBirthday() + ". Může létat? " + anicka.fly);
+        System.out.println("Kachna " + anicka.getName() + " váží: " + anicka.getWeight() + " a narodila se: " + anicka.getBirthday() + ". Může létat? " + anicka.fly());
         anicka.eat(2);
         anicka.wc(1);
-        System.out.println("Kachna " + anicka.getName() + " váží: " + anicka.getWeight() + " a narodila se: " + anicka.getBirthday() + ". Může létat? " + anicka.fly);
+        System.out.println("Kachna " + anicka.getName() + " váží: " + anicka.getWeight() + " a narodila se: " + anicka.getBirthday() + ". Může létat? "+ anicka.fly());
 
     }
 }

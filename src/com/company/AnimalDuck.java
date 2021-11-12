@@ -3,7 +3,6 @@ package com.company;
 import java.time.LocalDate;
 
 public class AnimalDuck extends Animals {
-    public boolean fly;
 
     public AnimalDuck(String name, float weight, LocalDate birthday) {
         this.name = name;
@@ -11,14 +10,13 @@ public class AnimalDuck extends Animals {
         this.birthday = birthday;
     }
 
-    public void canFly() {
-        if (weight >= 1.6); setFly(false);
-        if (weight <= 1.6); setFly(true);
+    public boolean fly() {
+        if (weight >= 1.6){
+            return false ;
+        }
+        return true;
     }
 
-    public void setFly(boolean fly) {
-        this.fly = fly;
-    }
 
     @Override
     public String getName() {
